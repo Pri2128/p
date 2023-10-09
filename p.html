@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 37);
+            color: aliceblue;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(3, 3, 88);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: rgb(192, 192, 238);
+            font-size: 1.04rem;
+
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstSection > div {
+            width: 30%;
+        }
+
+
+.leftSection .buttons{
+    padding: 50px 0;
+}
+        .leftSection {
+            font-size: 1.9rem;    
+        }
+        .leftSection .btn {
+           padding: 5px;  
+           background: #1e2167;  
+           color: white;
+           border: 1.2px solid white;
+           border-radius: 6px;
+           font-size: 15px;
+           cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+        .purple{
+            color: rgb(153, 57, 243);
+        }
+        #element{
+            color: rgb(153, 57, 243);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection h2{
+            font-size: 1rem;
+        }
+.text-gray{
+    color: gray;
+}
+.image-top{
+    width: 30px;
+}
+footer{
+    background-color: #3c1176;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is 
+                <span class="purple">Priyanshi Narayan Das</span>
+                <div>a 3rd year Computer Engineering student who works in technologies like HTML , CSS , Javascript ,
+                    Bootstrap , SQL , Git , Canva , Figma , C programming , Python , Nodejs , Mongodb .</div>
+                    <div> I am a passionate </div>
+                  
+                  <span id="element"></span>
+                    <div class="buttons"></div>
+                    <a href="pri.pdf" target="_blank"><button class="btn">Download Resume</button></a>
+                    <a href="c:\Users\priya\OneDrive\Desktop\protfolio website\Pri2128.htm" target="_blank"><button class="btn">Visit Github</button></a>
+                    <a href="c:\Users\priya\OneDrive\Desktop\protfolio website\priyanshi-das-6981bb246.htm" target="_blank"><button class="btn">Visit Linkdin</button></a>
+            </div>
+            <div class="rightSection">
+                <img src="pri.png.webp" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience : </h1>
+            <h3><img class="image-top" src="d.png" alt=""> Fresher (Student) </h3>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Priyanshi's Developer Protfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            
+        </div>
+<div class="footer-rights">
+   Copyright &#169; priyanshisProtfolio.com | All rights reserved
+   
+</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Web Designer.','Digital Marketing.','Photo Editor.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
